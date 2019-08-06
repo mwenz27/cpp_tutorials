@@ -1,0 +1,12 @@
+
+#include <cstdio>
+using namespace std;
+
+int main()
+{
+    char s[]  = "this is a string";
+    for(char c : s) {
+        printf("lateral %c\n", c);
+    }
+    return 0;
+}

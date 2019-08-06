@@ -1,0 +1,22 @@
+
+#include <cstdio>
+using namespace std;
+
+int main()
+{
+    char string[] = "abcefghi";
+    // basic for loop
+    for( int i = 0; i < 5; ++i ) {
+        printf("i is %d\n", i);
+    }
+    // writing indivual letter in a loop
+
+    for( int i = 0; string[i]; ++i ) {
+        printf("letter %c\n", string[i]);
+    }
+    for( char * cp = string; *cp; ++cp ) {
+        printf("\tletter %c\n", *cp);
+    }
+
+    return 0;
+}
